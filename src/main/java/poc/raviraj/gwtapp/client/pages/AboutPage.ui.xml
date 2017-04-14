@@ -3,10 +3,11 @@
 	<g:HTMLPanel>
 		<div>
 			<h2>About</h2>
-			<h3>POC - GWT using RPC / Hibernate</h3>
+			<h3>POC - GWT with RPC and at backend Apache CFX WebService SOAP with Hibernate</h3>
 			<ul>
 				<li>This project POC is performed by Raviraj Shettigar</li>
-				<li>Project requirement is to design UI using Google Web Toolkit and communicate with backend using RPC.</li>
+				<li>Design UI using Google Web Toolkit and ajax call using RPC which inturn calls Apache CXF SOAP Service</li>
+				<li>Server side is developed using Basic Spring (with complete java configuration, no XML), Apache CXF SOAP Webservice and hibernate ORM</li>
 			</ul>
 		</div>
 	</g:HTMLPanel>

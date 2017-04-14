@@ -110,17 +110,19 @@
 				<executions>
 					<execution>
 						<goals>
-							<goal>compile</goal>
-							<goal>test</goal>
 							<goal>generateAsync</goal>
+							<goal>compile</goal>
+<!-- 							<goal>test</goal> -->
 						</goals>
 					</execution>
 				</executions>
 				<!-- Plugin configuration. There are many available options, see gwt-maven-plugin documentation at codehaus.org -->
 				<configuration>
+					<port>8222</port>
+					<codeServerPort>9222</codeServerPort>
 					<runTarget>gwtapp.html</runTarget>
 					<modules>
-						<module>poc.raviraj.gwtapp.gwtapp</module>
+						<module>poc.raviraj.gwtapp.GwtApp</module>
 					</modules>
 				</configuration>
 			</plugin>
